@@ -5,16 +5,16 @@ class News
 {
     public function read($msg)
     {
-		return  "ndfdfasimeide" . "$msg";
+		return  "nasimeide" . "$msg";
   }
 
     public function hello($name = 'ThinkPHP5')
     {
-        return 'helddddddddddlo,' . $name;
+        return 'hello,' . $name;
     }
 
     public function hello1($name = 'ThinkPHP5')
     {
-        return 'helddddddddddlo,' . $name;
+        return 'hello,' . $name;
     }
 }
