@@ -10,7 +10,7 @@ class News
 
     public function hello($name = 'ThinkPHP5')
     {
-        return 'hello,' . $name;
+        return 'helrlo,' . $name;
     }
 
     public function hello1($name = 'ThinkPHP5')

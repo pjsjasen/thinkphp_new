@@ -1,14 +1,20 @@
 <?php
 namespace app\index\controller;
-use think\Controller;
-class HelloWorld extends Controller{
-    public function index()
-    {
-		return  "dadehello world";
-	}
 
-    public function hello()
+class News
+{
+    public function read($msg)
     {
-        return "hello!";
+        return  "nasimeide" . "$msg";
+    }
+
+    public function hello($name = 'ThinkPHP5')
+    {
+        return 'helrlo,' . $name;
+    }
+
+    public function hello1($name = 'ThinkPHP5')
+    {
+        return 'hello,' . $name;
     }
 }
